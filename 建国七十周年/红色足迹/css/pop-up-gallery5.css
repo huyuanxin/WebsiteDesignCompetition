@@ -154,9 +154,12 @@
 	float: left;
 	width: 315px;
 	position: relative;
-	height: 180px;
+	height: 180px; margin-top: 10px;
+  margin-left:10px;
 }
-
+.wrapper-inner-content-image:nth-child(even){
+  margin-right:5px;
+}
 .wrapper-inner-content-image img {
 	width: 315px;
 	position: absolute;

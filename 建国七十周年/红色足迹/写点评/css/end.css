@@ -1,0 +1,54 @@
+/*
+* @Author: 18929
+* @Date:   2019-04-24 18:35:58
+* @Last Modified by:   18929
+* @Last Modified time: 2019-04-24 19:04:01
+*/
+.end{
+    float: left;
+    width: 800px;
+    background: #f3f4f5;
+    margin-left: 300px;
+
+}
+.end>ul{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 540px;
+    height: 40px;
+    float: left;
+    margin-left: 128px;
+}
+.end>ul>li{
+    float: left;
+    margin-right: 5px;
+    line-height: 40px;
+    background: white;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.end li a{
+	 height: 40px;
+     width: 40px;
+	 color: #666666;
+	 display: block;
+	 border-radius: 8px;
+}
+.end li a:hover{
+	  color: white;
+	   background: #0b8bff;
+}
+.xx{
+	display: block;
+	text-decoration: none;
+	width:30px ;
+	height: 30px;
+	background: url('../images/x.png');
+	background-size: 100% 100%;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+}

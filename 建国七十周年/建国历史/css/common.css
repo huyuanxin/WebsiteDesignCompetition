@@ -1,0 +1,196 @@
+/*
+* @Author: 18929
+* @Date:   2019-04-23 01:44:02
+* @Last Modified by:   18929
+* @Last Modified time: 2019-04-25 20:47:04
+*/
+.head_c{
+    background: #FFFFFF;
+    height: 71px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top:0;
+    /* border-bottom: 3px dotted grey; */
+}
+header{
+    width: 1200px;
+    height: 71px;
+    position: fixed;
+     left: 17%;
+    
+    background: white;
+    margin-bottom: 71px;
+ /*    border-bottom: 3px dotted grey; */
+}
+a{
+    text-decoration: none;
+}
+h1{
+    float: left;
+    margin-left: 115px;
+    margin-top: 5px;
+    width: 85px;
+    height: 55px;
+    overflow: hidden；
+
+}
+header h1 img{
+    height: 60px;
+    margin-top: 5px;
+}
+header ul{
+    float: left;
+    margin-left: 11px;
+    height: 71px;
+}
+header ul li {
+    float: left;
+    margin-right: 1px;
+    height: 71px;
+}
+header ul li a{
+    text-decoration: none;
+    line-height:71px;
+    height: 71px;
+    float: left;
+    font-size: 14px;
+    padding-right: 10px ;
+    padding-left: 10px;
+    color: black;
+}
+header ul li  span{
+    float: right;
+    height: 18px;
+    width: 28px;
+    background: #4dc867;
+    color: white;
+    border-radius: 20%;
+    line-height:17px;
+    top: 27px;
+    position: relative;
+    text-align: center;
+}
+header ul li a:hover{
+    background: gainsboro;
+    color: #118eff;
+}
+.span1{
+    height: 20px;
+    width: 0px;
+    float: left;
+    border-right:1px dotted #ccc;
+    position: relative;
+    top: 26px;
+    left: -77px;
+}
+.span2{
+    height: 20px;
+    width: 0px;
+    float: left;
+    border-right:1px dotted #ccc;
+    position: relative;
+    top: 26px;
+    left: -1px;
+}
+.span3{
+    height: 20px;
+    width: 0px;
+    float: left;
+    border-right:1px dotted #ccc;
+    position: relative;
+    top: 26px;
+    left: -1px;
+}
+header input{
+    width: 232px;
+    height: 34px;
+    margin-left:23px;
+    margin-top: 18px;
+    border-radius: 10px 10px 10px 10px ;
+    outline: none;
+    border: none;
+    background: #f3f4f5;
+    font-size: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+form span{
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("../../首页/images/index_images/seo2.png");
+    background-size: 16px auto;
+    position: relative;
+    top:27px;
+    left: 245px;
+}
+.login{
+      float: right;
+      color: #118eff;
+      margin-right: 210px;
+      font-size: 15px;
+      text-decoration: none;
+      line-height: 71px;
+        padding-left: 10px;
+        padding-right: 10px;
+  }
+.login:hover{
+    background: gainsboro;
+}
+header ul li img{
+    position: relative;
+    top: 7px;
+}
+.col-lg-12{
+  position: relative;
+  top: 10px;
+  color: #666;
+}
+.col-lg-10{ 
+  margin-left: 220px;
+  margin-top: 35px;
+ 
+}
+.col-lg-10 .friend{
+  list-style: none;
+  margin-left: 30px;
+  width: 1100px;
+}
+.col-lg-10 .friend li{
+  float: left;
+  margin-left: 24px;
+  margin-bottom:10px;
+}
+.col-lg-10 .friend a{
+  list-style: none;
+  font-size: 16px;
+  color:#666;
+}
+#features {
+  max-width:none;
+}
+.row.featurette {
+  margin-right:0px;
+  margin-left:0px;
+}
+.row h2 a{
+  color: #5a5a5a;
+}
+.row h2 a:hover{
+  text-decoration: none;
+  color: grey;
+}
+.row.featurette{
+ /*  background:#e6f1fa; */
+ background: url('../../首页/images/index_images/bg.jpg');
+ background-size: 100% 100%;
+ margin-top: 55px;
+ height: 150px;
+}
+.wrapper-inner-content-image{
+    
+}
+.wrapper-inner-content{
+    position: relative;
+}

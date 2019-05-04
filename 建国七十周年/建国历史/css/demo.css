@@ -5,7 +5,10 @@
 
 html,
 body {
-  overflow-x: hidden; }
+ /*  overflow-x: hidden;  */
+ background: #f3f4f5;
+
+}
 
 html {
   font-size: 14px; }
@@ -21,8 +24,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #292b2c;
-  background: linear-gradient(to bottom right, #4A2AB2, #23A5E9); 
+  /* background: linear-gradient(to bottom right, #4A2AB2, #23A5E9);  */
 }
 
  
@@ -32,7 +34,9 @@ p {
 
 .container {
   max-width: 980px;
-  margin: 0 auto; }
+  margin: 0 auto; 
+background: #f3f4f5;
+}
 
 code, pre {
   padding: 0.5rem;
@@ -74,9 +78,10 @@ code {
     margin-bottom: 2rem; }
 
 .section-list {
+  background: #f3f4f5;
   padding: 3rem 2.5rem;
   margin-bottom: 2rem;
-  background: #fff; }
+ }
   @media (min-width: 576px) {
     .section-list {
       /*border-radius: 1rem; */} }
@@ -126,8 +131,9 @@ code {
 .timeline-1 .timeline-item {
   width: 800px;
   height: 350px;
-  background: #ddd;
-  border: none; }
+  background: white;
+  border-radius: 15px;
+   }
 
 .timeline-visual {
   float: left;
@@ -135,7 +141,9 @@ code {
   margin-right: 3%;
   line-height: 1; }
   .timeline-visual img {
-    max-width: 100%; }
+    max-width: 100%; 
+    margin-top: 25px;
+  }
 
 .timeline-detail {
   float: left;
@@ -147,7 +155,8 @@ code {
   margin: 10px;
   padding: 10px; }
   .timeline-detail-list li {
-    margin-bottom: 0.4rem; }
+    margin-bottom: 0.4rem;
+    color: black; }
 
 .timeline-theme-2 {
   width: 600px;
@@ -180,3 +189,7 @@ code {
 
 .theme-6 {
   background: #990055; }
+.htmleaf-container{
+  margin-top: 71px;
+  background: #f3f4f5;
+}

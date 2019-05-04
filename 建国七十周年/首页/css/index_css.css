@@ -1,0 +1,472 @@
+body{
+    font-family: "Microsoft YaHei",sans-serif;
+}
+.head_c{
+    background: #FFFFFF;
+    height: 71px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top:0;
+}
+header{
+    width: 1200px;
+    height: 71px;
+    position: fixed;
+    margin-left:50%;
+    left: -610px;
+    background: white;
+    margin-bottom: 71px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    float: left;
+    margin-left: 115px;
+    margin-top: 5px;
+    width: 85px;
+    height: 55px;
+    overflow: hidden；
+
+}
+header h1 img{
+    height: 60px;
+}
+header ul{
+    float: left;
+    margin-left: 11px;
+    height: 71px;
+}
+header ul li {
+    float: left;
+    margin-right: 1px;
+    height: 71px;
+}
+header ul li a{
+    text-decoration: none;
+    line-height:71px;
+    height: 71px;
+    float: left;
+    font-size: 14px;
+    padding-right: 10px ;
+    padding-left: 10px;
+    color: black;
+}
+header ul li  span{
+    float: right;
+    height: 18px;
+    width: 28px;
+    background: #4dc867;
+    color: white;
+    border-radius: 20%;
+    line-height:17px;
+    top: 27px;
+    position: relative;
+    text-align: center;
+}
+header ul li a:hover{
+    background: gainsboro;
+    color: #118eff;
+}
+.span1{
+    height: 20px;
+    width: 0px;
+    float: left;
+    border-right:1px dotted #ccc;
+    position: relative;
+    top: 26px;
+    left: -77px;
+}
+.span2{
+    height: 20px;
+    width: 0px;
+    float: left;
+    border-right:1px dotted #ccc;
+    position: relative;
+    top: 26px;
+    left: -1px;
+}
+.span3{
+    height: 20px;
+    width: 0px;
+    float: left;
+    border-right:1px dotted #ccc;
+    position: relative;
+    top: 26px;
+    left: -1px;
+}
+header input{
+    width: 232px;
+    height: 34px;
+    margin-left:23px;
+    margin-top: 18px;
+    border-radius: 10px 10px 10px 10px ;
+    outline: none;
+    border: none;
+    background: #f3f4f5;
+    font-size: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+form span{
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("../images/index_images/seo2.png");
+    background-size: 16px auto;
+    position: relative;
+    top:27px;
+    left: 245px;
+}
+.login{
+      float: right;
+      color: #118eff;
+      margin-right: 91px;
+      font-size: 15px;
+      text-decoration: none;
+      line-height: 71px;
+        padding-left: 10px;
+        padding-right: 10px;
+  }
+.login:hover{
+    background: gainsboro;
+}
+header ul li img{
+    position: relative;
+    top: 7px;
+}
+
+
+main{
+    height: 400px;
+}
+#wrap{
+        width: 64%; 
+        height: 400px;
+        margin:auto auto;
+        margin-top:71px; 
+        position: relative;
+        overflow: hidden; 
+     }
+#box{
+        width:600%;
+        height:400px; 
+        position: relative;   
+        margin: auto auto;   
+
+     }
+#box li{
+     width: 16.6666667%; 
+       float: left;
+      }
+#box img{
+    width: 100%;
+    height: 400px;
+}
+#lo{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -40px;
+}
+#lo li{
+    width: 8px;
+    height: 8px;
+    margin-right:10px;
+    float: left;
+    border-radius: 100%;
+    background: #000;
+    opacity: 0.2;
+}
+#lo .current{
+    background: #077aff;
+    opacity:1;
+}
+#wrap span{
+            position: absolute;
+            width: 20px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            top: 50%;
+            margin-top: -20px;
+            cursor: pointer;
+            z-index: 1;
+            }
+#wrap #left{
+            position: absolute;
+            display:block;
+            top: 50%;
+            width: 27px;
+            left:10px;
+            height: 44px;
+            margin-top: -22px;
+            z-index: 8;
+            cursor: pointer;
+            background-position: 50%;
+            background:url('../images/index_images/left.png') no-repeat center center;
+            background-size: 50px 50px;
+            }
+#wrap #right{
+            position: absolute;
+            display:block;
+            top: 50%;
+            width: 27px;
+            right:11px;
+            height: 44px;
+            margin-top: -22px;
+            z-index: 8;
+            cursor: pointer;
+            background-position: 50%;
+            background:url('../images/index_images/right.png') no-repeat center center;
+            background-size: 50px 50px;
+            }
+
+
+
+
+.content{
+    height: 725px;
+    width: 980px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.classify{
+    height: 80px;
+    width: 980px;
+    position: relative;
+    background: white;
+}
+.classify ul{
+    float: left;
+    height: 80px;
+    width: 980px;
+}
+#link{
+    border: 1px solid #118eff;
+    border-radius: 13px 13px 13px 13px;
+    cursor: pointer;
+    color: #118eff ;
+}
+.classify ul li{
+    float: left;
+    font-size: 12px;
+    width: 80px;
+    height: 34px;
+    margin-right: 3px;
+    text-align: center;
+    line-height: 34px;
+    margin-top: 18px;
+    border: 1px solid transparent;
+    border-radius: 13px 13px 13px 13px;
+    cursor: pointer;
+}
+.classify ul li:hover{
+    color: #118eff;
+    border-color:  #118eff;
+}
+.classify p {
+    font-size: 12px;
+    position: absolute;
+    right: 5px;
+    top: 37px;
+    color: #666;
+}
+.classify p span{
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-right: 12px;
+    background: url("../images/index_images/send.png");
+    background-size: 20px 20px;
+    cursor: pointer;
+}
+.classify p a:hover{
+    color:#118eff;
+}
+.con_list{
+    height: 610px;
+    width: 980px;
+    /*background: beige;*/
+    margin-right: auto;
+    margin-left: auto;
+}
+.con_list ul li{
+    width: 480px;
+    height: 138px;
+    float: left;
+    background: #f9f9fa;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.con_list ul li img:hover{
+    opacity: 0.7;
+}
+.con_list ul li:nth-of-type(2n){
+    margin-right: 0px;
+}
+.con_list ul li img{
+    height: 88px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 22px;
+    width: 88px;
+}
+.con_list li dl{
+    float: left;
+    margin-top: 22px;
+   margin-left: 22px;
+   width: 344px;
+}
+.con_list li dt{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.con_list li dt a{
+color: black;
+
+}
+.con_list li dd{
+    font-size: 12px;
+    margin-top: 15px;
+    color: #666666;
+    margin-left: 10px;
+}
+
+                                /*bacck to top */
+.action{
+    position: fixed;
+    width: 38px;
+    height: 80px;
+
+    right: 5px;
+    bottom: 80px;
+    text-align: center;
+    transition:  all 2s;
+    display: none;
+}
+.ben{
+    float: left;
+    width: 38px;
+    height: 38px;
+    background:url("../images/index_images/new1.png")  no-repeat rgba(0,0,0,0.3);
+    background-position: 9px 5px;
+    margin-bottom: 5px;
+    border-radius: 10%;
+    text-align: center;
+}
+.gotop{
+    float: left;
+    width: 38px;
+    height: 38px;
+    background:url("../images/index_images/new2.png") no-repeat rgba(0,0,0,0.3);
+    background-position: 9px 10px;
+    border-radius: 10%;
+    text-align: center;
+
+}
+.ben:hover{
+    background:url("../images/index_images/new1.png")  no-repeat rgba(0,0,0,0.6);
+    background-position: 9px 5px;
+}
+.gotop:hover{
+    background:url("../images/index_images/new2.png")  no-repeat rgba(0,0,0,0.6);
+    background-position: 9px 10px;
+}
+
+ /* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  padding-left: 10px;
+  position: relative;
+  top: 30px;
+}
+.col-lg-12{
+  position: relative;
+  top: 10px;
+  color: #666;
+}
+.col-lg-10{ 
+  margin-left: 220px;
+  margin-top: 35px;
+ 
+}
+.col-lg-10 .friend{
+  list-style: none;
+  margin-left: 30px;
+  width: 1100px;
+}
+.col-lg-10 .friend li{
+  float: left;
+  margin-left: 24px;
+  margin-bottom:10px;
+}
+.col-lg-10 .friend a{
+  list-style: none;
+  font-size: 16px;
+  color:#666;
+}
+#features {
+  max-width:none;
+}
+.row.featurette {
+  margin-right:0px;
+  margin-left:0px;
+}
+.row h2 a{
+  color: #5a5a5a;
+}
+.row h2 a:hover{
+  text-decoration: none;
+  color: grey;
+}
+.row.featurette{
+ /*  background:#e6f1fa; */
+ background: url('../images/index_images/bg.jpg');
+ background-size: 100% 100%;
+ margin-top: 55px;
+ height: 150px;
+}
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 25px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+   margin-top:75px; 
+  }
+}
